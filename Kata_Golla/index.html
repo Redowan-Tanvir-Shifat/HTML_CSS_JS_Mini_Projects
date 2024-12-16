@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KaTa_GoLLA</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>KaTa_GoLLa</h1>
+    <div id="game-board" class="board">
+      <div class="row">
+        <button class="cell" data-index="0"></button>
+        <button class="cell" data-index="1"></button>
+        <button class="cell" data-index="2"></button>
+      </div>
+      <div class="row">
+        <button class="cell" data-index="3"></button>
+        <button class="cell" data-index="4"></button>
+        <button class="cell" data-index="5"></button>
+      </div>
+      <div class="row">
+        <button class="cell" data-index="6"></button>
+        <button class="cell" data-index="7"></button>
+        <button class="cell" data-index="8"></button>
+      </div>
+    </div>
+    <div id="status" class="status"></div>
+    <button id="reset" class="reset-btn">Restart Game</button>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <p id="modal-message"></p>
+      <button id="modal-reset" class="reset-btn">Restart Game</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
